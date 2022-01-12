@@ -1,13 +1,13 @@
-[debug] [2022-01-12T10:52:50.226Z] ----------------------------------------------------------------------
-[debug] [2022-01-12T10:52:50.229Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Marudhu\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init hosting
-[debug] [2022-01-12T10:52:50.229Z] CLI Version:   10.0.1
-[debug] [2022-01-12T10:52:50.229Z] Platform:      win32
-[debug] [2022-01-12T10:52:50.230Z] Node Version:  v16.13.1
-[debug] [2022-01-12T10:52:50.231Z] Time:          Wed Jan 12 2022 16:22:50 GMT+0530 (India Standard Time)
-[debug] [2022-01-12T10:52:50.231Z] ----------------------------------------------------------------------
+[debug] [2022-01-12T11:07:57.661Z] ----------------------------------------------------------------------
+[debug] [2022-01-12T11:07:57.663Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Marudhu\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init hosting
+[debug] [2022-01-12T11:07:57.664Z] CLI Version:   10.0.1
+[debug] [2022-01-12T11:07:57.664Z] Platform:      win32
+[debug] [2022-01-12T11:07:57.664Z] Node Version:  v16.13.1
+[debug] [2022-01-12T11:07:57.665Z] Time:          Wed Jan 12 2022 16:37:57 GMT+0530 (India Standard Time)
+[debug] [2022-01-12T11:07:57.666Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2022-01-12T10:52:50.242Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2022-01-12T10:52:50.242Z] > authorizing via signed-in user (angeldeveloper09@gmail.com)
+[debug] [2022-01-12T11:07:57.675Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-01-12T11:07:57.676Z] > authorizing via signed-in user (angeldeveloper09@gmail.com)
 [info] 
      ######## #### ########  ######## ########     ###     ######  ########
      ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
@@ -26,9 +26,9 @@ You're about to initialize a Firebase project in this directory:
 [info] You can create multiple project aliases by running firebase use --add, 
 [info] but for now we'll just set up a default project.
 [info] 
-[debug] [2022-01-12T10:52:54.971Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
-[debug] [2022-01-12T10:52:56.660Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
-[debug] [2022-01-12T10:52:56.660Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[debug] [2022-01-12T11:08:01.926Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2022-01-12T11:08:03.534Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2022-01-12T11:08:03.535Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
 [info] i  Using project twitter-cne (twitter-cne) 
 [info] 
 === Hosting Setup
@@ -37,81 +37,93 @@ You're about to initialize a Firebase project in this directory:
 [info] will contain Hosting assets to be uploaded with firebase deploy. If you
 [info] have a build process for your assets, use your build's output directory.
 [info] 
-[debug] [2022-01-12T10:53:13.315Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
-[debug] [2022-01-12T10:53:14.084Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
-[debug] [2022-01-12T10:53:14.085Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"9.6.2","browserURL":"https://www.gstatic.com/firebasejs/9.6.2/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/9.6.2/firebase.tgz"},"live":{"version":"9.6","browserURL":"https://www.gstatic.com/firebasejs/live/9.6/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/9.6/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/9.6.2/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/9.6.2/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/9.6.2/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/9.6.2/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/9.6.2/firebase-auth/cordova.js","auth/react-native":"https://www.gstatic.com/firebasejs/9.6.2/firebase-auth/react-native.js","functions":"https://www.gstatic.com/firebasejs/9.6.2/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/9.6.2/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/9.6.2/firebase-firestore/lite.js","storage":"https://www.gstatic.com/firebasejs/9.6.2/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/9.6.2/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/9.6.2/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/9.6.2/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/9.6.2/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/9.6.2/firebase-database.js","firestore.memory":"https://www.gstatic.com/firebasejs/9.6.2/firebase-firestore.memory.js"}}
+[debug] [2022-01-12T11:08:11.524Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2022-01-12T11:08:12.249Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2022-01-12T11:08:12.249Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"9.6.2","browserURL":"https://www.gstatic.com/firebasejs/9.6.2/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/9.6.2/firebase.tgz"},"live":{"version":"9.6","browserURL":"https://www.gstatic.com/firebasejs/live/9.6/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/9.6/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/9.6.2/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/9.6.2/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/9.6.2/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/9.6.2/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/9.6.2/firebase-auth/cordova.js","auth/react-native":"https://www.gstatic.com/firebasejs/9.6.2/firebase-auth/react-native.js","functions":"https://www.gstatic.com/firebasejs/9.6.2/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/9.6.2/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/9.6.2/firebase-firestore/lite.js","storage":"https://www.gstatic.com/firebasejs/9.6.2/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/9.6.2/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/9.6.2/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/9.6.2/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/9.6.2/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/9.6.2/firebase-database.js","firestore.memory":"https://www.gstatic.com/firebasejs/9.6.2/firebase-firestore.memory.js"}}
 [info] +  Wrote y/index.html 
 [info] 
 [info] i  Detected a .git folder at C:\Users\Marudhu\Downloads\Github\Twitter Clone\twitter-clone 
 [info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
 [info] 
 [info] Visit this URL on this device to log in:
-[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=332075729&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=197366226&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
 [info] 
 [info] Waiting for authentication...
-[debug] [2022-01-12T10:53:31.081Z] >>> HTTP REQUEST POST https://github.com/login/oauth/access_token  
- {"client_id":"89cf50f02ac6aaed3484","client_secret":"3330d14abc895d9a74d5f17cd7a00711fa2c5bf0","code":"cebcd108c0ff91ad9362","redirect_uri":"http://localhost:9005","state":"332075729"}
-[debug] [2022-01-12T10:53:33.931Z] <<< HTTP RESPONSE 200 {"server":"GitHub.com","date":"Wed, 12 Jan 2022 10:53:33 GMT","content-type":"application/json; charset=utf-8","transfer-encoding":"chunked","vary":"X-PJAX, X-PJAX-Container, Accept-Encoding, Accept, X-Requested-With","permissions-policy":"interest-cohort=()","etag":"W/\"843f40700104c9340651e4e94fcac1ec\"","cache-control":"max-age=0, private, must-revalidate","strict-transport-security":"max-age=31536000; includeSubdomains; preload","x-frame-options":"deny","x-content-type-options":"nosniff","x-xss-protection":"0","referrer-policy":"origin-when-cross-origin, strict-origin-when-cross-origin","expect-ct":"max-age=2592000, report-uri=\"https://api.github.com/_private/browser/errors\"","content-security-policy":"default-src 'none'; base-uri 'self'; block-all-mixed-content; child-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com objects-origin.githubusercontent.com www.githubstatus.com collector.githubapp.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events translator.github.com wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src render.githubusercontent.com viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: github.githubassets.com identicons.github.com collector.githubapp.com github-cloud.s3.amazonaws.com secured-user-images.githubusercontent.com/ *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/","x-github-request-id":"E352:6498:9B05F0:C813A2:61DEB32C"}
-[debug] [2022-01-12T10:53:33.935Z] >>> [apiv2][query] GET https://api.github.com/user [none]
-[debug] [2022-01-12T10:53:35.828Z] <<< [apiv2][status] GET https://api.github.com/user 200
-[debug] [2022-01-12T10:53:35.828Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"AngelMarudhu","id":93287603,"node_id":"U_kgDOBY90sw","avatar_url":"https://avatars.githubusercontent.com/u/93287603?v=4","gravatar_id":"","url":"https://api.github.com/users/AngelMarudhu","html_url":"https://github.com/AngelMarudhu","followers_url":"https://api.github.com/users/AngelMarudhu/followers","following_url":"https://api.github.com/users/AngelMarudhu/following{/other_user}","gists_url":"https://api.github.com/users/AngelMarudhu/gists{/gist_id}","starred_url":"https://api.github.com/users/AngelMarudhu/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/AngelMarudhu/subscriptions","organizations_url":"https://api.github.com/users/AngelMarudhu/orgs","repos_url":"https://api.github.com/users/AngelMarudhu/repos","events_url":"https://api.github.com/users/AngelMarudhu/events{/privacy}","received_events_url":"https://api.github.com/users/AngelMarudhu/received_events","type":"User","site_admin":false,"name":"Marudhu","company":null,"blog":"","location":"Chennai","email":null,"hireable":null,"bio":null,"twitter_username":"MarudhuAngel","public_repos":6,"public_gists":0,"followers":0,"following":0,"created_at":"2021-10-27T19:35:37Z","updated_at":"2021-12-30T12:35:59Z","private_gists":0,"total_private_repos":2,"owned_private_repos":2,"disk_usage":23959,"collaborators":0,"two_factor_authentication":true,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[debug] [2022-01-12T11:08:15.768Z] >>> HTTP REQUEST POST https://github.com/login/oauth/access_token  
+ {"client_id":"89cf50f02ac6aaed3484","client_secret":"3330d14abc895d9a74d5f17cd7a00711fa2c5bf0","code":"0703b2f8044bda895dbc","redirect_uri":"http://localhost:9005","state":"197366226"}
+[debug] [2022-01-12T11:08:16.903Z] <<< HTTP RESPONSE 200 {"server":"GitHub.com","date":"Wed, 12 Jan 2022 11:08:16 GMT","content-type":"application/json; charset=utf-8","transfer-encoding":"chunked","vary":"X-PJAX, X-PJAX-Container, Accept-Encoding, Accept, X-Requested-With","permissions-policy":"interest-cohort=()","etag":"W/\"333e3e4ed77270eba007be6dbc2e60ad\"","cache-control":"max-age=0, private, must-revalidate","strict-transport-security":"max-age=31536000; includeSubdomains; preload","x-frame-options":"deny","x-content-type-options":"nosniff","x-xss-protection":"0","referrer-policy":"origin-when-cross-origin, strict-origin-when-cross-origin","expect-ct":"max-age=2592000, report-uri=\"https://api.github.com/_private/browser/errors\"","content-security-policy":"default-src 'none'; base-uri 'self'; block-all-mixed-content; child-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com objects-origin.githubusercontent.com www.githubstatus.com collector.githubapp.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events translator.github.com wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src render.githubusercontent.com viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: github.githubassets.com identicons.github.com collector.githubapp.com github-cloud.s3.amazonaws.com secured-user-images.githubusercontent.com/ *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/","x-github-request-id":"C9B1:38C5:2C2D7E:4A1D00:61DEB6A0"}
+[debug] [2022-01-12T11:08:16.909Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2022-01-12T11:08:17.884Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2022-01-12T11:08:17.885Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"AngelMarudhu","id":93287603,"node_id":"U_kgDOBY90sw","avatar_url":"https://avatars.githubusercontent.com/u/93287603?v=4","gravatar_id":"","url":"https://api.github.com/users/AngelMarudhu","html_url":"https://github.com/AngelMarudhu","followers_url":"https://api.github.com/users/AngelMarudhu/followers","following_url":"https://api.github.com/users/AngelMarudhu/following{/other_user}","gists_url":"https://api.github.com/users/AngelMarudhu/gists{/gist_id}","starred_url":"https://api.github.com/users/AngelMarudhu/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/AngelMarudhu/subscriptions","organizations_url":"https://api.github.com/users/AngelMarudhu/orgs","repos_url":"https://api.github.com/users/AngelMarudhu/repos","events_url":"https://api.github.com/users/AngelMarudhu/events{/privacy}","received_events_url":"https://api.github.com/users/AngelMarudhu/received_events","type":"User","site_admin":false,"name":"Marudhu","company":null,"blog":"","location":"Chennai","email":null,"hireable":null,"bio":null,"twitter_username":"MarudhuAngel","public_repos":6,"public_gists":0,"followers":0,"following":0,"created_at":"2021-10-27T19:35:37Z","updated_at":"2022-01-12T11:04:45Z","private_gists":0,"total_private_repos":2,"owned_private_repos":2,"disk_usage":23959,"collaborators":0,"two_factor_authentication":true,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
 [info] 
 [info] +  Success! Logged into GitHub as AngelMarudhu 
 [info] 
-[debug] [2022-01-12T10:54:30.658Z] >>> [apiv2][query] GET https://api.github.com/repos/y/actions/secrets/public-key type=owner
-[debug] [2022-01-12T10:54:31.694Z] <<< [apiv2][status] GET https://api.github.com/repos/y/actions/secrets/public-key 404
-[debug] [2022-01-12T10:54:31.695Z] <<< [apiv2][body] GET https://api.github.com/repos/y/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
-[debug] [2022-01-12T10:54:36.327Z] >>> [apiv2][query] GET https://api.github.com/repos/y/actions/secrets/public-key type=owner
-[debug] [2022-01-12T10:54:36.619Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
-[debug] [2022-01-12T10:54:37.194Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
-[debug] [2022-01-12T10:54:37.584Z] <<< [apiv2][status] GET https://api.github.com/repos/y/actions/secrets/public-key 404
-[debug] [2022-01-12T10:54:37.586Z] <<< [apiv2][body] GET https://api.github.com/repos/y/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
-[debug] [2022-01-12T10:54:37.836Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
-[debug] [2022-01-12T10:54:37.837Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
-[debug] [2022-01-12T10:54:38.304Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
-[debug] [2022-01-12T10:54:38.305Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
-[debug] [2022-01-12T11:04:58.252Z] >>> [apiv2][query] GET https://api.github.com/repos/gh repo clone AngelMarudhu/twitter-clone/actions/secrets/public-key type=owner
-[debug] [2022-01-12T11:04:59.679Z] <<< [apiv2][status] GET https://api.github.com/repos/gh repo clone AngelMarudhu/twitter-clone/actions/secrets/public-key 404
-[debug] [2022-01-12T11:04:59.679Z] <<< [apiv2][body] GET https://api.github.com/repos/gh repo clone AngelMarudhu/twitter-clone/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
-[debug] [2022-01-12T11:05:11.880Z] >>> [apiv2][query] GET https://api.github.com/repos/gh repo clone AngelMarudhu/twitter-clone/actions/secrets/public-key type=owner
-[debug] [2022-01-12T11:05:12.825Z] <<< [apiv2][status] GET https://api.github.com/repos/gh repo clone AngelMarudhu/twitter-clone/actions/secrets/public-key 404
-[debug] [2022-01-12T11:05:12.826Z] <<< [apiv2][body] GET https://api.github.com/repos/gh repo clone AngelMarudhu/twitter-clone/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
-[debug] [2022-01-12T11:05:14.053Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
-[debug] [2022-01-12T11:05:14.431Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
-[debug] [2022-01-12T11:05:14.624Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
-[debug] [2022-01-12T11:05:14.826Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
-[debug] [2022-01-12T11:05:14.961Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
-[debug] [2022-01-12T11:05:14.965Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
-[debug] [2022-01-12T11:05:15.044Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
-[debug] [2022-01-12T11:05:15.251Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
-[debug] [2022-01-12T11:05:15.465Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
-[debug] [2022-01-12T11:05:15.709Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
-[debug] [2022-01-12T11:05:15.842Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
-[debug] [2022-01-12T11:05:15.843Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
-[debug] [2022-01-12T11:05:15.937Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
-[debug] [2022-01-12T11:05:16.185Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
-[debug] [2022-01-12T11:05:17.702Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
-[debug] [2022-01-12T11:05:17.702Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
-[debug] [2022-01-12T11:05:18.402Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
-[debug] [2022-01-12T11:05:18.402Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
-[debug] [2022-01-12T11:05:18.640Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
-[debug] [2022-01-12T11:05:18.641Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
-[debug] [2022-01-12T11:05:18.715Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
-[debug] [2022-01-12T11:05:18.715Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
-[debug] [2022-01-12T11:05:19.143Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
-[debug] [2022-01-12T11:05:19.144Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
-[debug] [2022-01-12T11:05:19.204Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
-[debug] [2022-01-12T11:05:19.204Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
-[debug] [2022-01-12T11:05:19.344Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
-[debug] [2022-01-12T11:05:19.344Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
-[debug] [2022-01-12T11:05:19.401Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
-[debug] [2022-01-12T11:05:19.401Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
-[debug] [2022-01-12T11:05:48.933Z] >>> [apiv2][query] GET https://api.github.com/repos/gh repo clone AngelMarudhu/twitter-clone/actions/secrets/public-key type=owner
-[debug] [2022-01-12T11:05:49.303Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
-[debug] [2022-01-12T11:05:49.838Z] <<< [apiv2][status] GET https://api.github.com/repos/gh repo clone AngelMarudhu/twitter-clone/actions/secrets/public-key 404
-[debug] [2022-01-12T11:05:49.839Z] <<< [apiv2][body] GET https://api.github.com/repos/gh repo clone AngelMarudhu/twitter-clone/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
-[debug] [2022-01-12T11:05:50.282Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
-[debug] [2022-01-12T11:05:50.283Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
-[debug] [2022-01-12T11:06:01.976Z] >>> [apiv2][query] GET https://api.github.com/repos/gh repo clone AngelMarudhu/twitter-clone/actions/secrets/public-key type=owner
-[debug] [2022-01-12T11:06:02.946Z] <<< [apiv2][status] GET https://api.github.com/repos/gh repo clone AngelMarudhu/twitter-clone/actions/secrets/public-key 404
-[debug] [2022-01-12T11:06:02.946Z] <<< [apiv2][body] GET https://api.github.com/repos/gh repo clone AngelMarudhu/twitter-clone/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[debug] [2022-01-12T11:09:04.295Z] >>> [apiv2][query] GET https://api.github.com/repos/https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=197366226&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo/actions/secrets/public-key type=owner
+[debug] [2022-01-12T11:09:05.282Z] <<< [apiv2][status] GET https://api.github.com/repos/https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=197366226&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo/actions/secrets/public-key 404
+[debug] [2022-01-12T11:09:05.282Z] <<< [apiv2][body] GET https://api.github.com/repos/https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=197366226&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-01-12T11:09:29.578Z] >>> [apiv2][query] GET https://api.github.com/repos/gh repo clone AngelMarudhu/twitter-clone/actions/secrets/public-key type=owner
+[debug] [2022-01-12T11:09:30.621Z] <<< [apiv2][status] GET https://api.github.com/repos/gh repo clone AngelMarudhu/twitter-clone/actions/secrets/public-key 404
+[debug] [2022-01-12T11:09:30.621Z] <<< [apiv2][body] GET https://api.github.com/repos/gh repo clone AngelMarudhu/twitter-clone/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[debug] [2022-01-12T11:09:30.807Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2022-01-12T11:09:31.755Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2022-01-12T11:09:31.755Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-01-12T11:10:53.495Z] ----------------------------------------------------------------------
+[debug] [2022-01-12T11:10:53.497Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Marudhu\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init hosting
+[debug] [2022-01-12T11:10:53.498Z] CLI Version:   10.0.1
+[debug] [2022-01-12T11:10:53.498Z] Platform:      win32
+[debug] [2022-01-12T11:10:53.499Z] Node Version:  v16.13.1
+[debug] [2022-01-12T11:10:53.500Z] Time:          Wed Jan 12 2022 16:40:53 GMT+0530 (India Standard Time)
+[debug] [2022-01-12T11:10:53.500Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-01-12T11:10:53.509Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-01-12T11:10:53.510Z] > authorizing via signed-in user (angeldeveloper09@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Marudhu\Downloads\Github\Twitter Clone\twitter-clone
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-01-12T11:10:57.084Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2022-01-12T11:10:58.398Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2022-01-12T11:10:58.399Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project twitter-cne (twitter-cne) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2022-01-12T11:11:06.437Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2022-01-12T11:11:07.174Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2022-01-12T11:11:07.175Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"9.6.2","browserURL":"https://www.gstatic.com/firebasejs/9.6.2/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/9.6.2/firebase.tgz"},"live":{"version":"9.6","browserURL":"https://www.gstatic.com/firebasejs/live/9.6/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/9.6/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/9.6.2/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/9.6.2/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/9.6.2/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/9.6.2/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/9.6.2/firebase-auth/cordova.js","auth/react-native":"https://www.gstatic.com/firebasejs/9.6.2/firebase-auth/react-native.js","functions":"https://www.gstatic.com/firebasejs/9.6.2/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/9.6.2/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/9.6.2/firebase-firestore/lite.js","storage":"https://www.gstatic.com/firebasejs/9.6.2/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/9.6.2/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/9.6.2/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/9.6.2/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/9.6.2/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/9.6.2/firebase-database.js","firestore.memory":"https://www.gstatic.com/firebasejs/9.6.2/firebase-firestore.memory.js"}}
+[info] +  Wrote y/index.html 
+[info] 
+[info] i  Detected a .git folder at C:\Users\Marudhu\Downloads\Github\Twitter Clone\twitter-clone 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=1021749598&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2022-01-12T11:11:08.849Z] >>> HTTP REQUEST POST https://github.com/login/oauth/access_token  
+ {"client_id":"89cf50f02ac6aaed3484","client_secret":"3330d14abc895d9a74d5f17cd7a00711fa2c5bf0","code":"1f50a9266fcb6ab8bcc1","redirect_uri":"http://localhost:9005","state":"1021749598"}
+[debug] [2022-01-12T11:11:09.974Z] <<< HTTP RESPONSE 200 {"server":"GitHub.com","date":"Wed, 12 Jan 2022 11:11:09 GMT","content-type":"application/json; charset=utf-8","transfer-encoding":"chunked","vary":"X-PJAX, X-PJAX-Container, Accept-Encoding, Accept, X-Requested-With","permissions-policy":"interest-cohort=()","etag":"W/\"6f68160eb8ef49b63edb0e90fe6cbbc7\"","cache-control":"max-age=0, private, must-revalidate","strict-transport-security":"max-age=31536000; includeSubdomains; preload","x-frame-options":"deny","x-content-type-options":"nosniff","x-xss-protection":"0","referrer-policy":"origin-when-cross-origin, strict-origin-when-cross-origin","expect-ct":"max-age=2592000, report-uri=\"https://api.github.com/_private/browser/errors\"","content-security-policy":"default-src 'none'; base-uri 'self'; block-all-mixed-content; child-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com objects-origin.githubusercontent.com www.githubstatus.com collector.githubapp.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events translator.github.com wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src render.githubusercontent.com viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: github.githubassets.com identicons.github.com collector.githubapp.com github-cloud.s3.amazonaws.com secured-user-images.githubusercontent.com/ *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/","x-github-request-id":"F3D1:397A:3D113A:429F7D:61DEB74D"}
+[debug] [2022-01-12T11:11:09.990Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2022-01-12T11:11:10.989Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2022-01-12T11:11:10.990Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"AngelMarudhu","id":93287603,"node_id":"U_kgDOBY90sw","avatar_url":"https://avatars.githubusercontent.com/u/93287603?v=4","gravatar_id":"","url":"https://api.github.com/users/AngelMarudhu","html_url":"https://github.com/AngelMarudhu","followers_url":"https://api.github.com/users/AngelMarudhu/followers","following_url":"https://api.github.com/users/AngelMarudhu/following{/other_user}","gists_url":"https://api.github.com/users/AngelMarudhu/gists{/gist_id}","starred_url":"https://api.github.com/users/AngelMarudhu/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/AngelMarudhu/subscriptions","organizations_url":"https://api.github.com/users/AngelMarudhu/orgs","repos_url":"https://api.github.com/users/AngelMarudhu/repos","events_url":"https://api.github.com/users/AngelMarudhu/events{/privacy}","received_events_url":"https://api.github.com/users/AngelMarudhu/received_events","type":"User","site_admin":false,"name":"Marudhu","company":null,"blog":"","location":"Chennai","email":null,"hireable":null,"bio":null,"twitter_username":"MarudhuAngel","public_repos":5,"public_gists":0,"followers":0,"following":0,"created_at":"2021-10-27T19:35:37Z","updated_at":"2022-01-12T11:08:54Z","private_gists":0,"total_private_repos":2,"owned_private_repos":2,"disk_usage":23959,"collaborators":0,"two_factor_authentication":true,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] +  Success! Logged into GitHub as AngelMarudhu 
+[info] 
