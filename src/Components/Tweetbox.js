@@ -60,11 +60,3 @@ const Tweetbox = () => {
 };
 
 export default Tweetbox;
-
-//   displayName: "Marudhu",
-//   userName: "Nayan",
-//   verified: true,
-//   text: tweetMessage,
-//   image: tweetImage,
-//   avatar:
-//     "https://pbs.twimg.com/profile_images/1477339161031892993/DD4IdVfA_400x400.jpg",
